@@ -1,0 +1,101 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background: linear-gradient(
+        135deg,
+        rgb(75, 0, 130),
+        rgb(48, 25, 52),
+        rgb(25, 0, 51),
+        rgb(0, 0, 51),
+        rgb(25, 25, 112),
+        rgb(0, 0, 139)
+      );
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    margin: 4%;
+    color: white;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 1.5%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.agents-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.agents-container p {
+    color: white;
+}
+
+.agente {
+    background-color: rgba(255, 255, 255, 0.176);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.398);
+}
+
+.agente:hover {
+    background-color: rgba(255, 255, 255, 0.446);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.545);
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.imagen img {
+    margin: 0 auto;
+    width: 180px;
+    height: auto;
+}
+
+.info {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.info h2 {
+    font-size: 30px;
+    margin: 0%;
+    margin-bottom: 0%;
+}
+
+.info p {
+    font-size: 16px;
+    color: #b24eff;
+    font-weight: 800;
+    margin: 0%;
+}
+
+.habilidades {
+    list-style-type: none;
+    padding: 0;
+    font-size: 12px;
+}
